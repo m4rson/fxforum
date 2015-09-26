@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+}
+
+body{
+  background: #fff;
+}
+
+#main{
+  width: 100%;
+}
+
+header{
+  width: 100%;
+  height: 43px;
+  background: #121A1A;
+}
+
+header .inHeader{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.headerLogo .imageLogo{
+  height: 42px;
+  width: 150px;
+}
+
+.inHeader .headerLogo{
+  float:left;
+  margin-top: 1px;
+}
+
+.inHeader .headerNav{
+  float: left;
+  margin-top: 12px;
+}
+
+.headerNav ul li{
+  display: inline;
+  list-style: none;
+  padding: 10px;
+}
+
+.headerNav ul li a:link, a:visited{
+  text-decoration: none;
+	font-family: Arial;
+	font-size: 15px;
+	color: #eee;
+}
+
+.headerNav ul li a:hover{
+  color: #8a8a8a;
+}
+
+
+#container{
+  margin: 0 auto;
+  width: 80%;
+}
+.postForm{
+  width: 100%;
+}
+.postForm textarea{
+  width: 100%;
+  resize: none;
+
+}
+
+#container .addedBy{
+  text-align: center;
+  margin-top: 20px;
+  background: #121a1a;
+  color: #ddd;
+}
+
+.addedBy a{
+  color: red;
+  text-decoration: none;
+}
+
+#container .imageBox{
+
+}
+
+#container .commentBox{
+  background: #eee;
+}
+
+#container .flash_message{
+  text-align: center;
+  background: #121a1a;
+  color: #ddd;
+}
+
+.pagination_links{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.pagination_links a{
+  background: #121a1a;
+  padding: 4px 7px;
+  text-decoration: none;
+  border: #cac9c9;
+}
